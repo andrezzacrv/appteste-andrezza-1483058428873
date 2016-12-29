@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: appteste-andrezza
+  host: appteste-andrezza
+  disk_quota: 1024M
+  services:
+  - appteste-andrezza-AdvancedMobileAccess
+  - appteste-andrezza-imfpush
+  - appteste-andrezza-cloudantNoSQLDB
